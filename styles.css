@@ -71,7 +71,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('https://in.pinterest.com/pin/490259109443454859/') center/cover no-repeat; /* Bubu and Dudu image URL */
+    background: url('https://unsplash.com/photos/a-close-up-of-a-flower-OYEoNbiutRE') center/cover no-repeat; /* Bubu and Dudu image URL */
     opacity: 0.2; /* Background opacity */
     z-index: -1; /* Behind all content */
     animation: rotateBackground 30s linear infinite; /* Animation */
