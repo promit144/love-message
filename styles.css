@@ -1,69 +1,58 @@
-/* Reset default styles */
 body {
     margin: 0;
     padding: 0;
-}
-
-/* Center content vertically and horizontally */
-body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    overflow: hidden; /* Hide overflow to prevent scrollbars */
-    background: linear-gradient(45deg, #ff9a9e 0%, #fecfef 100%); /* Gradient background */
-    font-family: 'Arial', sans-serif; /* Font family */
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
 }
 
-/* Center content within the container */
 .container {
     text-align: center;
-    color: #fff; /* Text color */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow */
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* Main heading style */
 h1 {
-    font-size: 3em; /* Font size */
-    animation: fadeIn 2s ease-in-out infinite alternate, moveUpDown 4s ease-in-out infinite; /* Animations */
+    font-size: 3em;
+    animation: fadeIn 2s ease-in-out infinite alternate, moveUpDown 4s ease-in-out infinite;
 }
 
-/* Emojis style */
 .emojis {
-    font-size: 1.5em; /* Font size */
+    font-size: 1.5em;
     display: inline-block;
-    animation: bounce 1s infinite; /* Animation */
+    animation: bounce 1s infinite;
 }
 
-/* Animation keyframes */
 @keyframes fadeIn {
     from {
-        opacity: 0.5; /* Start opacity */
+        opacity: 0.5;
     }
     to {
-        opacity: 1; /* End opacity */
+        opacity: 1;
     }
 }
 
 @keyframes moveUpDown {
     0%, 100% {
-        transform: translateY(0); /* Start and end position */
+        transform: translateY(0);
     }
     50% {
-        transform: translateY(-20px); /* Middle position */
+        transform: translateY(-20px);
     }
 }
 
 @keyframes bounce {
     0%, 100% {
-        transform: translateY(0); /* Start and end position */
+        transform: translateY(0);
     }
     50% {
-        transform: translateY(-10px); /* Middle position */
+        transform: translateY(-10px);
     }
 }
 
-/* Background image and animation */
 body::before {
     content: '';
     position: absolute;
@@ -71,18 +60,17 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('https://unsplash.com/photos/a-close-up-of-a-flower-OYEoNbiutRE') center/cover no-repeat; /* Bubu and Dudu image URL */
-    opacity: 0.2; /* Background opacity */
-    z-index: -1; /* Behind all content */
-    animation: rotateBackground 30s linear infinite; /* Animation */
+    background: url('https://github.com/promit144/love-message/blob/main/pxfuel%20(1).jpg') center/cover no-repeat; /* Replace with your image URL */
+    opacity: 0.2;
+    z-index: -1;
+    animation: rotateBackground 30s linear infinite;
 }
 
-/* Rotate background animation */
 @keyframes rotateBackground {
     from {
-        transform: rotate(0deg); /* Start rotation */
+        transform: rotate(0deg);
     }
     to {
-        transform: rotate(360deg); /* End rotation */
+        transform: rotate(360deg);
     }
 }
