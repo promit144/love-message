@@ -71,7 +71,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('https://i.pinimg.com/originals/1f/5a/5e/1f5a5e3aef5a9a18c8ed3b13f729582e.jpg') center/cover no-repeat; /* Bubu and Dudu image URL */
+    background: url('https://in.pinterest.com/pin/490259109443454859/') center/cover no-repeat; /* Bubu and Dudu image URL */
     opacity: 0.2; /* Background opacity */
     z-index: -1; /* Behind all content */
     animation: rotateBackground 30s linear infinite; /* Animation */
