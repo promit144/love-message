@@ -61,7 +61,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('wp11296756-bubu-dudu-wallpapers.png') center/cover no-repeat;
+    background: url('https://i.pinimg.com/originals/12/34/56/1234567890abcdef.jpg') center/cover no-repeat; /* Replace with the direct URL of the Pinterest image */
     opacity: 0.2;
     z-index: -1;
     animation: rotateBackground 30s linear infinite;
