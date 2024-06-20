@@ -7,8 +7,8 @@ body {
     height: 100vh;
     overflow: hidden;
     font-family: 'Arial', sans-serif;
-    background: url('https://github.com/promit144/love-message/blob/main/pxfuel%20(1).jpg?raw=true') center/cover no-repeat fixed; /* Updated background */
-    background-size: cover; /* Ensure the image covers the entire background */
+    background: url('https://github.com/promit144/love-message/blob/main/pxfuel%20(1).jpg?raw=true') center/cover no-repeat fixed;
+    background-size: cover;
 }
 
 .container {
