@@ -7,6 +7,8 @@ body {
     height: 100vh;
     overflow: hidden;
     font-family: 'Arial', sans-serif;
+    background: url('https://github.com/promit144/love-message/blob/main/pxfuel%20(1).jpg?raw=true') center/cover no-repeat fixed; /* Updated background */
+    background-size: cover; /* Ensure the image covers the entire background */
 }
 
 .container {
@@ -50,27 +52,5 @@ h1 {
     }
     50% {
         transform: translateY(-10px);
-    }
-}
-
-body::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url('https://github.com/promit144/love-message/blob/main/pxfuel%20(1).jpg?raw=true') center/cover no-repeat; /* Replace with your image URL */
-    opacity: 0.2;
-    z-index: -1;
-    animation: rotateBackground 30s linear infinite;
-}
-
-@keyframes rotateBackground {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
     }
 }
