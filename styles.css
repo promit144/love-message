@@ -60,7 +60,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('https://raw.githubusercontent.com/promit144/love-message/main/pxfuel%20(1).jpg') center/cover no-repeat; /* Replace with your image URL */
+    background: url('https://github.com/promit144/love-message/blob/main/pxfuel%20(1).jpg?raw=true') center/cover no-repeat; /* Replace with your image URL */
     opacity: 0.2;
     z-index: -1;
     animation: rotateBackground 30s linear infinite;
