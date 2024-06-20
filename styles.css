@@ -1,59 +1,69 @@
+/* Reset default styles */
 body {
     margin: 0;
     padding: 0;
+}
+
+/* Center content vertically and horizontally */
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(45deg, #ff9a9e 0%, #fecfef 100%);
-    overflow: hidden;
-    font-family: 'Arial', sans-serif;
+    overflow: hidden; /* Hide overflow to prevent scrollbars */
+    background: linear-gradient(45deg, #ff9a9e 0%, #fecfef 100%); /* Gradient background */
+    font-family: 'Arial', sans-serif; /* Font family */
 }
 
+/* Center content within the container */
 .container {
     text-align: center;
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #fff; /* Text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow */
 }
 
+/* Main heading style */
 h1 {
-    font-size: 3em;
-    animation: fadeIn 2s ease-in-out infinite alternate, moveUpDown 4s ease-in-out infinite;
+    font-size: 3em; /* Font size */
+    animation: fadeIn 2s ease-in-out infinite alternate, moveUpDown 4s ease-in-out infinite; /* Animations */
 }
 
+/* Emojis style */
 .emojis {
-    font-size: 1.5em;
+    font-size: 1.5em; /* Font size */
     display: inline-block;
-    animation: bounce 1s infinite;
+    animation: bounce 1s infinite; /* Animation */
 }
 
+/* Animation keyframes */
 @keyframes fadeIn {
     from {
-        opacity: 0.5;
+        opacity: 0.5; /* Start opacity */
     }
     to {
-        opacity: 1;
+        opacity: 1; /* End opacity */
     }
 }
 
 @keyframes moveUpDown {
     0%, 100% {
-        transform: translateY(0);
+        transform: translateY(0); /* Start and end position */
     }
     50% {
-        transform: translateY(-20px);
+        transform: translateY(-20px); /* Middle position */
     }
 }
 
 @keyframes bounce {
     0%, 100% {
-        transform: translateY(0);
+        transform: translateY(0); /* Start and end position */
     }
     50% {
-        transform: translateY(-10px);
+        transform: translateY(-10px); /* Middle position */
     }
 }
 
+/* Background image and animation */
 body::before {
     content: '';
     position: absolute;
@@ -61,17 +71,18 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('https://i.pinimg.com/originals/12/34/56/1234567890abcdef.jpg') center/cover no-repeat; /* Replace with the direct URL of the Pinterest image */
-    opacity: 0.2;
-    z-index: -1;
-    animation: rotateBackground 30s linear infinite;
+    background: url('https://i.pinimg.com/originals/1f/5a/5e/1f5a5e3aef5a9a18c8ed3b13f729582e.jpg') center/cover no-repeat; /* Bubu and Dudu image URL */
+    opacity: 0.2; /* Background opacity */
+    z-index: -1; /* Behind all content */
+    animation: rotateBackground 30s linear infinite; /* Animation */
 }
 
+/* Rotate background animation */
 @keyframes rotateBackground {
     from {
-        transform: rotate(0deg);
+        transform: rotate(0deg); /* Start rotation */
     }
     to {
-        transform: rotate(360deg);
+        transform: rotate(360deg); /* End rotation */
     }
 }
